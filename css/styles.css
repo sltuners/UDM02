@@ -1,5 +1,6 @@
 body {
   font-family: 'Merriweather', serif;
+  min-width: 1040px;
   margin: 0;
   text-align: center;
   background-color: rgb(168, 168, 168);
