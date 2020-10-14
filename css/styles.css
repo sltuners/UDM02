@@ -41,7 +41,7 @@ h3 {
 
 p {
   margin-bottom: 0;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 hr {
@@ -117,7 +117,7 @@ hr {
   line-height: 2;
   width: 75%;
   margin: 0 auto 60px;
-  font-size: 21px;
+  font-size: 3rem;
 }
 
 .skills-logo {
@@ -168,14 +168,14 @@ hr {
   line-height: 2;
   width: 70%;
   margin: 30px auto 60px;
-  font-size: 21px;
+  font-size: 2rem;
 }
 
 .skillText {
   /*background-color:  rgba(128, 128, 128, 0.2);*/
   border-radius: 4px;
   padding: 0 5px;
-  font-size: 21px;
+  font-size: 1rem;
 }
 
 .btn {
