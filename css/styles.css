@@ -77,6 +77,7 @@ hr {
   padding-top: 100px;
   width: 100%;
   margin: 0 auto;
+  overflow: visible;
 }
 
 .middle-container {
@@ -90,6 +91,7 @@ hr {
   margin: 140px auto 0;
   padding: 50px 0 20px;
   width: 100%;
+  overflow: visible;
 }
 
 .top-cloud {
@@ -114,14 +116,7 @@ hr {
 .describeMe {
   line-height: 2;
   width: 75%;
-  margin: 0 auto 40px;
-  font-size: 21px;
-}
-
-.contact-quote {
-  line-height: 2;
-  width: 70%;
-  margin: 30px auto 60px;
+  margin: 0 auto 60px;
   font-size: 21px;
 }
 
@@ -145,7 +140,7 @@ hr {
 }
 
 .skill-row-two {
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 }
 
 .round-photo-me {
@@ -163,7 +158,18 @@ hr {
   width: 35%;
   float: right;
   margin-left: 30px;
-}  
+}
+
+.shift-down {
+  margin-top: 100px;
+}
+
+.contact-quote {
+  line-height: 2;
+  width: 70%;
+  margin: 30px auto 60px;
+  font-size: 21px;
+}
 
 .skillText {
   /*background-color:  rgba(128, 128, 128, 0.2);*/
