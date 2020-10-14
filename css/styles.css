@@ -4,64 +4,72 @@ body {
   text-align: center;
   background-color: rgb(168, 168, 168);
 }
+
 a  {
   color: #324659;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
+
 a:hover {
   color: #C0DEF5;
 }
+
 h1 {
   font-size: 6rem;
   font-family: 'Sacramento', cursive;
   margin: 50px auto 0;
   color: #7291A8;
 }
+
 h2 {
   color: #7291A8;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: normal;
   margin: 80px auto 40px;
 }
+
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
+  font-size: 2rem;
 }
+
 p {
   margin-bottom: 0;
+  font-size: 1.25rem;
 }
+
 hr {
   margin-top: 0;
-  border: 6px dotted grey;
+  border: 12px dotted grey;
   border-bottom: none;
-  width: 33px;
+  width: 66px;
+  position: relative;
+  left: 12px;
 }
-.h2-skills {
+
+.h2-dark {
+  color: #486380;
+  font-size: 3.5rem;
+}
+
+.h2-white {
   color: whitesmoke;
+  font-size: 3.5rem;
+}
+
+.text-shadow {
   text-shadow: 2px 2px 4px #33404e;
 }
-.copyright {
-  color: rgba(240, 240, 240, 0.8);
-  margin: 40px auto;
-  font-size: 0.75rem;
-}
-.darker-h2 {
-  color: #486380;
-  font-size: 3rem;
-}
-.describeMe {
-  line-height: 2;
-  width: 45%;
-  margin: 0 auto 40px;
-}
-.contact-quote {
-  line-height: 2;
-  width: 45%;
-  margin: 30px auto 60px;
+
+.main-container {
+  width: 1040px;
+  margin: 0 auto;
+  overflow-x: visible;  
 }
 
 .top-container {
@@ -69,63 +77,91 @@ hr {
   position: relative;
   padding-top: 100px;
 }
+
 .middle-container {
   background-color: #a8a8a8;
   color: whitesmoke;
-  padding-top: 50px;
+  padding-top: 100px;
 }
+
 .bottom-container{
   background-color: rgba(79, 109, 140, 0.9);
   margin-top: 140px;
   padding: 50px 0 20px;
 }
+
 .top-cloud {
   position: absolute;
-  right: 380px;
+  right: 100px;
   top: 50px;
 }
+
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 200px;
   bottom: 300px;
 }
-.skills {
+
+.copyright {
+  color: rgba(240, 240, 240, 0.8);
+  margin: 40px auto;
+  font-size: 0.75rem;
+}
+
+.describeMe {
+  line-height: 2;
+  width: 75%;
+  margin: 0 auto 40px;
+}
+
+.contact-quote {
+  line-height: 2;
+  width: 70%;
+  margin: 30px auto 60px;
+}
+
+.skills-logo {
   background-image: url('../images/Bg01.jpg');
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   background-attachment: fixed;
   background-size: 100% ;
   background-position: 50% 56%;
   margin: 100px auto;
-  padding: 1px 0;
+  padding-top: 150px;
+  height: 400px;
 }
+
 .skill-row {
   margin: 100px auto;
-  width: 45%;
+  width: 75%;
   text-align: justify;
   line-height: 2;
   clear: both;
 }
+
 .skill-row-two {
   margin-bottom: 200px;
 }
+
 .round-photo-me {
-  width: 25%;
+  width: 50%;
   margin: 50px auto 0;
 }
+
 .round-photo-skillone {
-  width: 25%;
+  width: 35%;
   float: left;
   margin: 0 30px 0 0;
-
 }
+
 .round-photo-skilltwo {
-  width: 25%;
+  width: 35%;
   float: right;
   margin-left: 30px;
 }  
+
 .skillText {
-  #text-shadow: 1px 1px 2px #aaaaaa;
-  background-color:  grey;
+  background-color:  rgba(128, 128, 128, 0.5);
   border-radius: 4px;
   padding: 0 5px;
 }
