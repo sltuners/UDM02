@@ -44,7 +44,7 @@ p {
 }
 
 hr {
-  margin-top: 0;
+  margin: 200px auto;
   border: 12px dotted grey;
   border-bottom: none;
   width: 66px;
@@ -66,9 +66,8 @@ hr {
 }
 
 .main-container {
-  width: 1080px;
+  width: 1020px;
   margin: 0 auto;
-  overflow-x: visible;  
 }
 
 .top-container {
@@ -140,7 +139,7 @@ hr {
 }
 
 .skill-row-two {
-  margin-bottom: 150px;
+  margin-bottom: 250px;
 }
 
 .round-photo-me {
@@ -161,7 +160,7 @@ hr {
 }
 
 .shift-down {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .contact-quote {
