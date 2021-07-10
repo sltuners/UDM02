@@ -205,3 +205,10 @@ hr {
   text-decoration: none;
   color: #ffffff;
 }
+
+@media (max-width: 1070px) {
+  .skillText, .describeMe {
+    font-size: 2rem;}
+  h3, .btn {
+    font-size: 3rem;}
+}
