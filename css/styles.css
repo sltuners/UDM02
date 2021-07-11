@@ -114,6 +114,7 @@ hr {
 }
 
 .describeMe {
+  font-family: 'Montserrat', sans-serif;
   line-height: 2;
   width: 75%;
   margin: 0 auto 60px;
@@ -164,15 +165,16 @@ hr {
   margin-top: 200px;
 }
 
-.contact-quote {
+/* .contact-quote {
   line-height: 2;
   width: 70%;
   margin: 30px auto 60px;
   font-size: 1.5rem;
-}
+} */
 
 .skillText {
   /*background-color:  rgba(128, 128, 128, 0.2);*/
+  font-family: 'Montserrat', sans-serif;
   border-radius: 4px;
   padding: 0 5px;
   font-size: 1rem;
