@@ -1,6 +1,6 @@
 body {
   font-family: 'Merriweather', serif;
-  min-width: 1040px;
+  min-width: 1028px;
   margin: 0;
   text-align: center;
   background-color: rgb(168, 168, 168);
@@ -122,9 +122,9 @@ hr {
 
 .skills-logo {
   background-image: url('../images/Bg01.jpg');
-  /*background-repeat: no-repeat;*/
+  /* background-repeat: no-repeat; */
   background-attachment: fixed;
-  background-size: 100% ;
+  background-size: 100%;
   background-position: center;
   margin: 100px 2%;
   padding-top: 150px;
@@ -190,9 +190,10 @@ hr {
   border-radius: 8px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 3rem;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  margin-top: 150px;
 }
 
 .btn:hover {
@@ -211,4 +212,133 @@ hr {
     font-size: 2rem;}
   h3, .btn {
     font-size: 3rem;}
-}
+  }
+/* == BLOCKQUOTE PART ==  */
+  @import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,700&display=swap");
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+    
+  .quote-body {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000000;
+  }
+  
+  .quote-wrapper {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 12vh auto 12vh ; /*OPTIONAL MARGIN*/
+  }
+  
+  .qtext {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      ellipse at center,
+      rgba(206, 206, 206, 0.411) 0%,
+      #46668194 70%,
+      rgba(210, 20, 20, 0) 70.3%
+    );
+
+    position: relative;
+    margin: 0;
+    color: rgba(245, 245, 245, 0.918);
+  }
+  
+  .qtext p {
+    height: 100%;
+    font-size: 28px;
+    line-height: 1.25;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .qtext::before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    float: left;
+    shape-outside: polygon(
+      0 0,
+      98% 0,
+      50% 6%,
+      23.4% 17.3%,
+      6% 32.6%,
+      0 50%,
+      6% 65.6%,
+      23.4% 82.7%,
+      50% 94%,
+      98% 100%,
+      0 100%
+    );
+    shape-margin: 7%;
+  }
+  
+  .qtext p::before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    float: right;
+    shape-outside: polygon(
+      2% 0%,
+      100% 0%,
+      100% 100%,
+      2% 100%,
+      50% 94%,
+      76.6% 82.7%,
+      94% 65.6%,
+      100% 50%,
+      94% 32.6%,
+      76.6% 17.3%,
+      50% 6%
+    );
+    shape-margin: 7%;
+  }
+  
+  .quote-wrapper blockquote footer {
+    width: 100%;
+    position: absolute;
+    bottom: 25px;
+    font-size: 17px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .quote-wrapper::before {
+    content: "\201C";
+    font-size: 270px;
+    height: 82px;
+    line-height: 0.78;
+    line-height: 1;
+    position: absolute;
+    top: -48px;
+    left: 0;
+    z-index: 1;
+    font-family: sans-serif, serif;
+    color: #ccc;
+    opacity: 0.9;
+  }
+  
+  @media (min-width: 850px) {
+    .quote-wrapper {
+      width: 470px;
+      height: 470px;
+    }
+  
+    .quote-wrapper::before {
+      font-size: 300px;
+    }
+  
+    .qtext p {
+      font-size: 33px;
+    }
+  
+    .quote-wrapper blockquote footer {
+      bottom: 34px;
+      font-size: 23px;
+    }
+  } 
